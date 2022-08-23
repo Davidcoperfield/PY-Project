@@ -19,9 +19,6 @@ for x in h.headers:
 print("**********")
 print(r.text)
 
-print("Status code:")
-print(r.status_code)
-
 # This will modify the headers user-agent
 headers = {
     "User-Agent" : "Mobile"
