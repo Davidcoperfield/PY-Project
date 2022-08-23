@@ -5,6 +5,5 @@ import requests
 inputUrl = input("Enter the URL: ")
 url = str(inputUrl)
 r = requests.get(url)
-print(r.text)
 print("Status code:")
 print(r.status_code)
