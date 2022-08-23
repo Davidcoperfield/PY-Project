@@ -17,7 +17,6 @@ print("**********")
 for x in h.headers:
     print("\t ", x, ":", h.headers[x])
 print("**********")
-
 print(r.text)
 
 print("Status code:")
