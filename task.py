@@ -24,7 +24,7 @@ print(r.status_code)
 
 # This will modify the headers user-agent
 headers = {
-    "User-Agent" : "Iphone 8"
+    "User-Agent" : "Mobile"
 }
 url2 = 'http://172.18.58.80/headers.php'
 rh = requests.get(url2, headers=headers)
