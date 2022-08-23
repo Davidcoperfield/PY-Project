@@ -2,8 +2,7 @@
 import requests
 
 # Set the Target Webpage
-inputUrl = input("Enter the URL: ")
-url = str(inputUrl)
+url = "http://172.18.58.80/index.php"
 r = requests.get(url)
 
 # This will get the status code
