@@ -28,7 +28,3 @@ print(r.status_code)
 headers = {
     "User-Agent" : "Iphone 8"
 }
-# Test it on an external site
-url2 = 'http://httpbin.org/headers'
-rh = requests.get(url2, headers=headers)
-print(rh.text)
