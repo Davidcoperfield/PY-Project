@@ -27,3 +27,6 @@ print(r.status_code)
 headers = {
     "User-Agent" : "Iphone 8"
 }
+url2 = 'http://172.18.58.80/headers.php'
+rh = requests.get(url2, headers=headers)
+print(rh.text)
